@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <style>
+ 
+        * {
+            box-sizing: border-box;
+        }
+        html{
+            background-color: burlywood;
+        }
+
+        body{
+            font-size: 100%;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            font-size: 1.5em;
+
+        }
+
+        .flexcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        #infobox{
+            width: 300px;
+            height: 500px;
+            background-color:lightslategray;
+        }
+
+        #infobox2{
+            width: 300px;
+            height: 500px;
+            background-color:darkgray;
+        }
+
+        #padding{
+            width: 10em;
+            height: 20em;
+        }
+        
+        #infobox > p{
+            font-size: 16px;
+        }
+
+        #infobox2 > p{
+            font-size: 16px;
+        }
+
+        #introbox{
+            background-color: goldenrod;
+            justify-self: center;
+            text-align: center;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+    </style>
+    <head>  
+    <h1>Practice 1</h1>
+    </head>
+    <header><title>practice 1</title></header>
+    
+    <body>
+        
+        <section>
+            <div id="introbox">
+                    <p>Hi! My name is Matthew. Welcome to my corner of the internet!</p>
+                </div>
+            <div class="flexcontainer" style = "justify-content:center;">
+                <div id="infobox">
+                    <h3 style="text-align: center;">About me</h3>
+                    <p>I'm a computer science major in my sophomore year. I currently work under the direction of Professor Alex Bardas, researching microservices.</p>
+                    <p>My many skills incude:</p>
+                    <ul>
+                        <li>Python, C, C++, HTML. CSS, Javascript</li>
+                        <li>Communication and writing</li>
+                        <li>Adobe: Indesign, Photoshop, Premere</li>    
+                        <li>Basic photography skills</li>
+                    </ul>
+                </div>
+                <div 
+                <div id="infobox2"><h3 style="text-align: center;"> See some of my work!</h3>
+                <p>During the summer of 2022, I went to the California Institute of Technology to work under Professor Axel Scherer. You can find my abstract for that internship <a href="https://sfp.caltech.edu/documents/22774/Compiled_Abstract_Book_22_ioVhgnc.pdf" target="_blank">here!</a></p> 
+                <p><a href="https://www.kansan.com/search/?l=25&s=start_time&sd=desc&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=matthew+petillo" target="_blank">Read my work for the University Daily Kansan here!</a></p>
+                <p>Watch me host a TV show!</p>
+                <iframe width="250" src="https://www.youtube.com/embed/Jee_p3LE35U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="center"></iframe>
+                <p>More projects coming!</p>
+                </div>
+                <div id="infobox">
+                    <h3 style="text-align: center;">Work Experience</h3>
+                    <ul>
+                        <li>Jan 2022 - Present: Research Assistant, University of Kansas School of Engineering</li>
+                        <li>May 2022 - Aug 2022: Summer Undergraduate Research Fellow, California Institute of Technology</li>
+                        <li>2020 - Present, Animal Care Technician, Design-Zyme LLC
+                        <li>Aug 2021 - Present: University Daily Kansan</li>
+                            <ul>
+                                <li>Aug 2021 - Dec 2021: News Correspondent</li>
+                                <li>Dec 2021 - May 2022: Senior Reporter</li>
+                                <li>May 2022 - May 2023: News Editor</li>
+                                <li>May 2023 - May 2024: Editor-In-Chief</li>
+                            </ul>
+                    </ul>
+                </div>
+                <div id="infobox2">
+                    <img src="profilepic" alt="portrait" width="200" class="center"><br>
+                    <p style="text-align:center">Contact me via email at mpetillo@ku.edu.</p>
+                </div>
+            </div>
+        </section>   
+    </body>
+</html>

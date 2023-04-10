@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<html>
+        
+    <style>
+        #texttarget{
+            border-width: 2;
+            border-style: solid;
+        }
+    </style>
+
+    <head><h1>Practice 2</h1></head>
+    
+    <body>
+        <script src="functions.js"></script>
+        <p id="texttarget"> The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+        <form>
+            <label>Border Blue value (0-255):</label>
+            <input type="text" id="blueborder" name="blueborder"><br>
+            <label>Border Red value (0-255):</label>
+            <input type="text" id="redborder" name="redborder"><br>
+            <label>Border Green value (0-255):</label>
+            <input type="text" id="greenborder" name="greenborder"><br>
+            <label>Border Width:</label>
+            <input type="text" id="borderwidth" name="borderwidth"><br>
+            <label>Background Blue value (0-255):</label>
+            <input type="text" id="bluebackground" name="bluebackground"><br>
+            <label>Background Red value (0-255):</label>
+            <input type="text" id="redbackground" name="redbackground"><br>
+            <label>Background Green value (0-255):</label>
+            <input type="text" id="greenbackground" name="greenbackground"><br>
+            <input type="button" value = "Click me!" onclick="updateValues()">
+        </form>
+    </body>
+</html>
